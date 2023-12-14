@@ -1,0 +1,23 @@
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+    android:padding="10dp">
+
+    <TextView
+        android:id="@+id/textViewTask"
+        android:layout_width="0dp"
+        android:layout_weight="1"
+        android:layout_height="wrap_content"
+        android:textSize="14sp"/>
+
+    <Button
+        android:id="@+id/btnDelete"
+        android:layout_width="45dp"
+        android:layout_height="wrap_content"
+        android:background="#7CB342"
+        android:text="Delete"
+        android:textSize="10dp"
+        android:textColor="#F9F9F9" />
+</LinearLayout>
